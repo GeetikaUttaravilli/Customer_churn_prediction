@@ -3,12 +3,34 @@
 ## About the Project
 This project predicts customer churn using machine learning and Snowflake. It helps identify customers who may leave a service.
 
+## Dataset
+
+The project uses the Telco Customer Churn dataset, which contains customer information, service details, contract types, payment methods, and churn status.
+
+Total Records: 7,043 customers
+
+Target Column: CHURN
+
+Target Values: 0 – Customer stayed, 1 – Customer churned
+
+## Features Used
+
+ -Customer demographics
+ -Customer tenure
+ -Contract type
+ -Payment method
+ -Internet and phone services
+ -Monthly charges
+ -Total charges
+
 ## Technologies Used
-- Python
-- Snowflake SQL
-- Pandas
-- Scikit-learn
-- Logistic Regression
+
+  -Snowflake
+  -Snowflake SQL
+  -Pandas
+  -Scikit-learn
+  -Logistic Regression
+  -Streamlit
 
 ## Project Steps
 1. Load customer data into Snowflake.
